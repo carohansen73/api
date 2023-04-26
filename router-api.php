@@ -2,8 +2,8 @@
 //incluyo el router de la libreria
 include_once 'libs/Route.php';
 include_once 'api/api-controller.php';
-include_once("libs/adodb5/adodb-exceptions.inc.php");
-include_once("libs/adodb5/adodb.inc.php");
+// include_once("libs/adodb5/adodb-exceptions.inc.php");
+// include_once("libs/adodb5/adodb.inc.php");
 
 //creo el nuevo router
 $router = new Router();
