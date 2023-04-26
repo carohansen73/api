@@ -15,7 +15,7 @@ $router = new Router();
 //define('BASE_URL', '//' . $_SERVER['SERVER_NAME'] . ':' . $_SERVER['SERVER_PORT'] . dirname($_SERVER['PHP_SELF']));
 
 //defino la tabla de ruteo (case)
-$router->addRoute('', 'GET', 'ApiController', 'getHome');
+$router->addRoute('/', 'GET', 'ApiController', 'getHome');
 $router->addRoute('inmueble/:ID', 'GET', 'ApiController', 'getDatosInmueble');
 $router->addRoute('comercio/:ID', 'GET', 'ApiController', 'getDatosComercio');
 
