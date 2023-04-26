@@ -1,0 +1,167 @@
+body{
+    font-family: geekflare-primary,system-ui,-apple-system,segoe ui,roboto,helvetica neue,arial,noto sans,liberation sans,sans-serif,apple color emoji,segoe ui emoji,segoe ui symbol,noto color emoji;
+    font-size: 16px;
+    background: #e2e2e2;
+}
+
+h1{
+    font-size: 50px;
+}
+
+h2{
+    font-family: geekflare-primary,system-ui,-apple-system,segoe ui,roboto,helvetica neue,arial,noto sans,liberation sans,sans-serif,apple color emoji,segoe ui emoji,segoe ui symbol,noto color emoji;
+    font-size: 26px;
+}
+
+h3{
+    font-family: geekflare-primary,system-ui,-apple-system,segoe ui,roboto,helvetica neue,arial,noto sans,liberation sans,sans-serif,apple color emoji,segoe ui emoji,segoe ui symbol,noto color emoji;
+    font-size: 18px;
+}
+
+.seccion{
+    background-color: #ffffff;
+    width: 100%;
+    padding: 20px 0px 20px 0px;
+}
+
+
+/* ------------------------  HOME  ------------------------- */
+
+.logo{
+    width: 300px;
+}
+
+.container-cards{
+    display: flex;
+   justify-content: center;
+}
+
+.icon-element{
+    font-size: 100px;
+}
+
+.card-header{
+    background-color: rgb(8, 8, 8);
+    color: white;
+}
+
+#container-response H1{
+    font-size: 16px !important;
+}
+
+
+/*  -----------------  BOTONES  ------------------- */
+
+
+.box{
+    position: relative;
+}
+
+.input  {
+    padding: 10px;
+    width: 260px;
+    height: 50px;
+    background: #3b3640;
+    border: 1px solid #999999;
+    /* border-radius: 10px; */
+    box-sizing: border-box;
+    font-family: Comic Sans MS;
+  
+    /* color: #ffd52d; */
+    color: azure;
+    outline: none;
+    transition: .5s;
+    box-shadow:  2px 2px 2px 2px rgba(170, 170, 170, 0.425);
+}
+
+.box i, .box p, .box button{
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    font-size: 26px;
+    color: #f1f1f1;
+    
+}
+
+.box button{
+  left: 225px;
+  background: none;
+  border: none; 
+  height: 30px;
+  width: 30px;
+  transition: .5s;
+} 
+
+.box p{
+    left: 85px;
+    font-size: 16px;
+    transition: .5s;
+}
+
+.box i{
+    left: 15px;
+    transition: .5s;
+  
+}
+
+/*HOVERS*/
+
+ /* .box:hover input{
+    width: 300px;
+    background: #ffffff;
+    border-radius: 10px;
+    border: 3px solid #3b3640;
+    color: black;
+} */
+
+/* .box:hover button{
+    left: 270px;
+    z-index: 1;
+    background: #3b3640;
+    height: 100%;
+    padding: 14px 26px 15px 28px;
+    border-radius: 0px 10px 10px 0px;
+} */
+
+/* .box:hover i{
+    left: 24px;
+    z-index: 1;
+} */
+
+/* .box:hover p{
+    left: 80px; 
+    top: -20%;
+    color: black;
+    font-weight: bold;
+}  */
+
+.transform-text{
+    left: 80px !important; 
+    top: -24% !important;
+    color: black !important;
+    font-weight: bold ; 
+}
+
+.transform-input{
+    width: 300px !important;
+    background: #ffffff !important;
+    /* border-radius: 10px !important; */
+    border: 2px solid #3b3640 !important;
+    color: black !important;
+    font-weight: normal !important;
+}
+
+.button-transform{
+    left: 275px !important;
+    z-index: 1 !important;
+    background: #3b3640 !important;
+    height: 100% !important;
+    padding: 14px 26px 15px 28px !important;
+    /* border-radius: 0px 10px 10px 0px !important; */
+}
+
+.i-transform{
+    left: 28px !important;
+    z-index: 1 !important;
+}
+
