@@ -103,7 +103,6 @@ class ApiModelInmueble {
             //---------------------------------  3: TITULARES  ----------------------------------//
 
             $consulta3 = "SELECT
-                 i.NRO_INMUEBLE,
                 i.NRO_CONTRIB,
                 i.TITULAR,
                 i.VINC_TIPO,
