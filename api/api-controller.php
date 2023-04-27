@@ -2,17 +2,20 @@
 
 require_once('api-view.php');
 
-require_once('api-model.php');
+require_once('api-model-inmueble.php');
+require_once('api-model-comercio.php');
 
 class ApiController{
 
-    private $model;
+    private $modelInmueble;
+    private $modelComercio;
     private $modelPersona;
     private $view;
 
     function __construct()
     {
-        $this->model = new ApiModel();
+        $this->modelInmueble = new ApiModelInmueble();
+        $this->modelComercio = new ApiModelComercio();
        
         $this->view = new APIView();
     }
@@ -23,7 +26,7 @@ class ApiController{
 
     function getDatosInmueble($params){
         $inmueble = $params[':ID'];
-        $datos = $this->model->getDatosInmueble($inmueble);
+        $datos = $this->modelInmueble->getDatosInmueble($inmueble);
      
         if ($datos) {
             $this->view->response($datos, 200);
@@ -42,7 +45,7 @@ class ApiController{
         }
       
 
-        $datos = $this->model->getDatosComercio($cuil);
+        $datos = $this->modelComercio->getDatosComercio($cuil);
 
         if ($datos) {
             $this->view->response($datos, 200);
